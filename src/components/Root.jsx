@@ -11,6 +11,7 @@ const Root = () => {
       </div>
       <Footer></Footer>
       <ScrollRestoration></ScrollRestoration>
+      
     </div>
   );
 };

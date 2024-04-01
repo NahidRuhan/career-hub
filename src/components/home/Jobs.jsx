@@ -22,8 +22,6 @@ const Jobs = ({ jobs }) => {
                 <h2 className="font-bold text-lg">{job.job_title}</h2>
                 <h2>{job.company_name}</h2>
                 <div className="flex gap-3">
-                  {/* <button className="btn btn-outline btn-info">Remote</button>
-                  <button className="btn btn-outline btn-info">Full Time</button> */}
                   <div className="badge badge-secondary badge-outline p-5">{job.remote_or_onsite}</div>
                   <div className="badge badge-secondary badge-outline p-5">{job.job_type}</div>
                 </div>
@@ -32,7 +30,7 @@ const Jobs = ({ jobs }) => {
                   <p className="flex items-center gap-2"><span><FaMoneyBill /></span>{job.salary}</p>
                 </div>
                 <div>
-                  <button onClick={()=> navigate(`/jobs/${job.id}`)} className="btn btn-primary bg-[#7E90FE]">View Details</button>
+                  <button onClick={()=> navigate(`/featured-jobs/${job.id}`)} className="btn btn-primary bg-[#7E90FE]">View Details</button>
                 </div>
 
               </div>

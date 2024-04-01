@@ -1,14 +1,20 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import bg from "../../assets/images/bg1.png";
 import { FaBriefcase, FaLocationDot, FaMoneyBill, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Job = () => {
-  const job = useLoaderData();
-  const { id,job_title, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information } = job.job;
-  const [appliedJobs, setAppliedJobs] = useState([])
-//   console.log(appliedJobs);
+  const jobs = useLoaderData();
+  const {jobId} = useParams();
+  const job = jobs.find(job=> job.id === parseInt(jobId));
+  // console.log(job);
+  const { job_title, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
+  const handleApply = () => {
+    toast("Applied to a job!!!!!!!!!!!!")
+  }
+
 
   return (
     <div className="space-y-5 pb-5">
@@ -32,8 +38,7 @@ const Job = () => {
         <div className="bg-slate-300 space-y-5 basis-2/6 p-5">
             <h1 className="font-bold">Job Details</h1>
             <div className="divider"></div>
-            {/* <p className="flex items-center"><span className="font-bold"><FaMoneyBill /> Salary: </span>{salary}</p>
-            <p className="flex items-center"><span className="font-bold"><FaBriefcase /> Job Title: </span>{job_title}</p> */}
+          
             <p className="flex items-center gap-3">
                 <span><FaMoneyBill /></span>
                 <span className="font-bold">Salary: </span>
@@ -49,10 +54,13 @@ const Job = () => {
             <p className="flex items-center gap-3"><span><FaPhone /></span><span className="font-bold">Phone: </span>{contact_information.phone}</p>
             <p className="flex items-center gap-3"><span><MdEmail /></span><span className="font-bold">Email: </span>{contact_information.email}</p>
             <p className="flex items-center gap-3"><span><FaLocationDot /></span><span className="font-bold">Location: </span>{contact_information.address}</p>
-            <button onClick={()=> setAppliedJobs([...appliedJobs,id])} className="btn btn-primary w-full bg-[#7E90FE] text-white">Apply Now</button>
+            <button onClick={handleApply} className="btn btn-primary w-full bg-[#7E90FE] text-white">Apply Now</button>
         </div>
       </div>
+      <ToastContainer />
+
     </div>
+
   );
 };
 

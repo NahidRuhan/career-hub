@@ -35,16 +35,9 @@ const router = createBrowserRouter([
         }
       },
       {
-        path: "/jobs/:jobId",
+        path: "/featured-jobs/:jobId",
         element: <Job></Job>,
-        loader: async({params}) => {
-          return fetch('/jobs.json')
-            .then(response => response.json())
-            .then(jobs => {
-              const job = jobs.find(job => job.id === parseInt(params.jobId));
-              return { job };
-            });
-        }
+        loader: ()=> fetch('../public/jobs.json')
       },
       {
         path: "/applied-jobs",
