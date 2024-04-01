@@ -4,6 +4,7 @@ import { FaBriefcase, FaLocationDot, FaMoneyBill, FaPhone } from "react-icons/fa
 import { MdEmail } from "react-icons/md";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { savedJobApplication } from "../../utils/localStorage";
 
 const Job = () => {
   const jobs = useLoaderData();
@@ -12,6 +13,7 @@ const Job = () => {
   // console.log(job);
   const { job_title, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
   const handleApply = () => {
+    savedJobApplication(parseInt(jobId))
     toast("Applied to a job!!!!!!!!!!!!")
   }
 
