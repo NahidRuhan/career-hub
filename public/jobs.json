@@ -1,0 +1,193 @@
+[
+     {
+      "id": 1,
+      "logo": "https://i.ibb.co/k8dGJ8F/image.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Remote",
+      "location": "Dhaka, Bangladesh",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "educational_requirements": "Bachelor degree to complete any reputational university.",
+      "experiences": "2-3 Years in this field.",
+      "contact_information": {
+        "phone": "01750-00 00 00",
+        "email": "info@gmail.com",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      }
+    },
+    {
+      "id": 2,
+      "logo": "https://i.ibb.co/JCLs5jB/image.png",
+      "job_title": "Senior Database Administrator",
+      "company_name": "Microsoft Corporation",
+      "remote_or_onsite": "Remote",
+      "location": "Lagos, Nigeria",
+      "job_type": "Full Time",
+      "salary": "120k-180k",
+      "job_description": "A Senior Database Administrator (DBA) is responsible for the performance, integrity, and security of a database. They will also be involved in the planning and development of the database as well as troubleshooting any issues on behalf of users.",
+      "job_responsibility": "Designing and implementing database systems: Senior DBAs are responsible for designing, implementing, and maintaining database systems. This includes creating and maintaining the database schema, optimizing queries, and ensuring data integrity and security.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "5+ years of experience in database administration.",
+      "contact_information": {
+          "phone": "+234-123-456-7890",
+          "email": "careers@microsoft.com",
+          "address": "Lekki Phase 1, Lagos, Nigeria"
+      }
+  },
+  {
+      "id": 3,
+      "logo": "https://i.ibb.co/nnkZBj9/image.png",
+      "job_title": "Database Developer",
+      "company_name": "Amazon.com, Inc.",
+      "remote_or_onsite": "Remote",
+      "location": "Seattle, Washington",
+      "job_type": "Full Time",
+      "salary": "110k-160k",
+      "job_description": "A Database Developer is responsible for designing, developing, and maintaining database systems. They work closely with other members of the development team to ensure that the database meets the needs of the organization.",
+      "job_responsibility": "Writing efficient SQL queries: Database Developers are responsible for writing efficient SQL queries to retrieve and manipulate data. They must have a strong understanding of database design principles and be able to optimize queries for performance.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "3-5 years of experience in database development.",
+      "contact_information": {
+          "phone": "(206) 266-1000",
+          "email": "amazon-careers@amazon.com",
+          "address": "410 Terry Ave N, Seattle, WA 98109, United States"
+      }
+  },
+  {
+      "id": 4,
+      "logo": "https://i.ibb.co/HN2Hpgx/image.png",
+      "job_title": "Database Architect",
+      "company_name": "Meta Platforms, Inc. (formerly Facebook)",
+      "remote_or_onsite": "Remote",
+      "location": "Mumbai, India",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "A Database Architect is responsible for designing and building database systems that meet the needs of the organization. They work closely with other members of the development team to ensure that the database architecture is scalable, secure, and efficient.",
+      "job_responsibility": "Designing database systems: Database Architects are responsible for designing database systems that meet the needs of the organization. This includes determining the best database architecture, selecting appropriate database technologies, and designing data models.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "5+ years of experience in database architecture.",
+      "contact_information": {
+          "phone": "+91-22-4049-7600",
+          "email": "jobs@meta.com",
+          "address": "Indiabulls Finance Centre, Tower 3, 23rd floor, Elphinstone Road (West), Mumbai, Maharashtra 400013, India"
+      }
+  },
+  {
+      "id": 5,
+      "logo": "https://i.ibb.co/f0JZMDn/image.png",
+      "job_title": "Database Analyst",
+      "company_name": "Apple Inc.",
+      "remote_or_onsite": "Onsite",
+      "location": "Cupertino, California",
+      "job_type": "Full Time",
+      "salary": "130k-170k",
+      "job_description": "A Database Analyst is responsible for analyzing and interpreting data to help inform business decisions. They work closely with other members of the organization to gather requirements, design data models, and develop reports and dashboards.",
+      "job_responsibility": "Analyzing data: Database Analysts are responsible for analyzing and interpreting data to help inform business decisions. This includes identifying trends, patterns, and outliers in the data, and communicating findings to stakeholders.",
+      "educational_requirements": "Bachelor's degree in Statistics, Mathematics, Computer Science, or related field.",
+      "experiences": "3-5 years of experience in data analysis.",
+      "contact_information": {
+          "phone": "+1 (408) 996-1010",
+          "email": "jobs@apple.com",
+          "address": "1 Apple Park Way, Cupertino, CA 95014, United States"
+      }
+  },
+  {
+      "id": 6,
+      "logo": "https://i.ibb.co/w45bYDy/image.png",
+      "job_title": "Database Administrator",
+      "company_name": "IBM Corporation",
+      "remote_or_onsite": "Remote",
+      "location": "Tokyo, Japan",
+      "job_type": "Full Time",
+      "salary": "90k-140k",
+      "job_description": "A Database Administrator (DBA) is responsible for the performance, integrity, and security of a database. They will also be involved in the planning and development of the database as well as troubleshooting any issues on behalf of users.",
+      "job_responsibility": "Managing database security: Database Administrators are responsible for managing database security, including user access control, data encryption, and auditing. They must ensure that the database complies with relevant security regulations and standards.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "2-4 years of experience in database administration.",
+      "contact_information": {
+          "phone": "+81 3-6363-4111",
+          "email": "careers@ibm.com",
+          "address": "3 Chome-1-5 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan"
+      }
+  },
+  {
+    "id": 7,
+    "logo": "https://i.ibb.co/RQmXC6q/image.png",
+    "job_title": "Database Systems Engineer",
+    "company_name": "Oracle Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "Dublin, Ireland",
+    "job_type": "Full Time",
+    "salary": "110k-160k",
+    "job_description": "A Database Systems Engineer is responsible for designing, implementing, and maintaining database systems. They work closely with other members of the development team to ensure that the database meets the needs of the organization.",
+    "job_responsibility": "Optimizing database performance: Database Systems Engineers are responsible for optimizing database performance, including tuning queries, indexing tables, and configuring caching mechanisms.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3-5 years of experience in database engineering.",
+    "contact_information": {
+        "phone": "+353 1 803 7000",
+        "email": "careers@oracle.com",
+        "address": "East Point Business Park, Dublin 3, D03 E5R6, Ireland"
+    }
+},
+{
+    "id": 8,
+    "logo": "https://i.ibb.co/kmF9RSx/image.png",
+    "job_title": "Database Infrastructure Engineer",
+    "company_name": "Netflix, Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Los Gatos, California",
+    "job_type": "Full Time",
+    "salary": "130k-180k",
+    "job_description": "A Database Infrastructure Engineer is responsible for designing, implementing, and maintaining the infrastructure that supports database systems. They work closely with other members of the infrastructure team to ensure that the database infrastructure is scalable, secure, and reliable.",
+    "job_responsibility": "Automating database operations: Database Infrastructure Engineers are responsible for automating database operations, including provisioning, deployment, monitoring, and backup and recovery.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "5+ years of experience in database infrastructure.",
+    "contact_information": {
+        "phone": "+1 (408) 540-3700",
+        "email": "talent@netflix.com",
+        "address": "100 Winchester Cir, Los Gatos, CA 95032, United States"
+    }
+},
+{
+    "id": 9,
+    "logo": "https://i.ibb.co/zN4Z1Jv/image.png",
+    "job_title": "Database Systems Analyst",
+    "company_name": "Twitter, Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, California",
+    "job_type": "Full Time",
+    "salary": "120k-170k",
+    "job_description": "A Database Systems Analyst is responsible for analyzing and interpreting data to help inform business decisions. They work closely with other members of the organization to gather requirements, design data models, and develop reports and dashboards.",
+    "job_responsibility": "Designing data models: Database Systems Analysts are responsible for designing data models that meet the needs of the organization. This includes defining data requirements, creating entity-relationship diagrams, and normalizing data structures.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Information Systems, or related field.",
+    "experiences": "3-5 years of experience in data analysis.",
+    "contact_information": {
+        "phone": "+1 (415) 222-9670",
+        "email": "jobs@twitter.com",
+        "address": "1355 Market St #900, San Francisco, CA 94103, United States"
+    }
+},
+{
+    "id": 10,
+    "logo": "https://i.ibb.co/S5y5LRC/image.png",
+    "job_title": "Database Operations Engineer",
+    "company_name": "Spotify Technology S.A.",
+    "remote_or_onsite": "Remote",
+    "location": "Stockholm, Sweden",
+    "job_type": "Full Time",
+    "salary": "100k-150k",
+    "job_description": "A Database Operations Engineer is responsible for managing and maintaining database systems in production environments. They work closely with other members of the operations team to ensure that the database infrastructure is reliable, scalable, and secure.",
+    "job_responsibility": "Monitoring database performance: Database Operations Engineers are responsible for monitoring database performance, including CPU and memory usage, disk I/O, and query execution times.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "2-4 years of experience in database operations.",
+    "contact_information": {
+        "phone": "+46 (0) 8 743 2000",
+        "email": "career@spotify.com",
+        "address": "Birger Jarlsgatan 61, 113 56 Stockholm, Sweden"
+    }
+}
+    
+  ]
